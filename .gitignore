@@ -1,0 +1,42 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+
+venv/
+.venv/
+django_backend/venv/
+fastapi_backend/myvenv/
+
+# Environment secrets
+
+.env
+.env.*
+!.env.example
+django_backend/.env
+fastapi_backend/.env
+
+# Test and coverage files
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+
+*.log
+
+# Local databases and temporary files
+
+*.sqlite3
+*.db
+.DS_Store
+Thumbs.db
+
+# IDE
+
+.vscode/
+.idea/
